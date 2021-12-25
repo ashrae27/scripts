@@ -1,7 +1,6 @@
 # scripts
 Linux and Ansible Scripts from my CyberClass
 
-![Azure resource group](https://user-images.githubusercontent.com/88813019/147035262-817cab85-8a85-49ce-add4-f80029c44568.JPG)
 
 
 ## Automated ELK Stack Deployment
