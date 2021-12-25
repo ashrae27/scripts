@@ -42,7 +42,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Web1     | Server   | 10.0.0.4   | Linux            |
 | Web2     | Server   | 10.0.0.5   | Linux            |
 | Web3     | Server   | 10.0.0.6   | Linux            |
-
+| ELK-VM   | Server   | 10.1.0.4   | Linux
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
