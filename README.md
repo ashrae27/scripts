@@ -56,10 +56,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses                 |
 |----------|---------------------|----------------------                |
-| Jump Box | Yes                 | Home IP Address, 10.0.1.4, 172.17.0.1|
-| Web1     | No                  | 10.0.0.4, 172.17.0.1                 |
-| Web2     | No                  | 10.0.0.5, 172.17.0.1                 |
-| Web3     | No                  | 10.0.0.6, 172.17.0.1                 |
+| Jump Box | No                  |
+| Web1     | Yes                 | 10.0.0.4, 172.17.0.1                 |
+| Web2     | Yes                 | 10.0.0.5, 172.17.0.1                 |
+| Web3     | Yes                 | 10.0.0.6, 172.17.0.1                 |
 | ELK-VM   | No                  | 10.1.0.4                             |
 ### Elk Configuration
 
