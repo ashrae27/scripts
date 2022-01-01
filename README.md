@@ -7,7 +7,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Playbook1: Pentest yml
 
----
+|---
 - name: Config Web VM with Docker
   hosts: webservers
   become: true
@@ -40,7 +40,7 @@ Playbook1: Pentest yml
   - name: Enable docker service
     systemd:
       name: docker
-      enabled: yes
+      enabled: yes |
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
