@@ -59,11 +59,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses                 |
 |----------|---------------------|----------------------                |
-| Jump Box | No                  |                                      |
+| Jump Box | Yes                 | 68.5.26.44 (Port 80)                 |
 | Web1     | Yes                 | 20.124.220.50                        |
 | Web2     | Yes                 | 20.124.220.50                        |
 | Web3     | Yes                 | 20.124.220.50                        |
-| ELK-VM   | No                  |                                      |
+| ELK-VM   | Yes                 | 68.5.26.44 (Port 5601)               |
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
