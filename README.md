@@ -6,8 +6,8 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
 Playbook1: Pentest yml
+[Playbook1 pentest yml.txt](https://github.com/ashrae27/scripts/files/7797353/Playbook1.pentest.yml.txt)
 
-C:\Users\ashle\Documents\Playbook1 pentest yml.txt
 
 
 
