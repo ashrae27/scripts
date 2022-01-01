@@ -72,9 +72,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Main advantage configuration with Ansible helps with the representation of Infrastructure as code (IAC)
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Create a new vNet in Azure with the same resource group
+- Create a new VM in the new vNet and a minimun of 1 GiB memory
+- Create a Ansible playbook installs Docker and put together a Elk container
+- Run the playbook to launch the container
+- Access to the Elk Vm
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
