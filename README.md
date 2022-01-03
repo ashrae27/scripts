@@ -44,7 +44,7 @@ The configuration details of each machine may be found below.
 | Web1     | Server   | 10.0.0.4   | Linux            |
 | Web2     | Server   | 10.0.0.5   | Linux            |
 | Web3     | Server   | 10.0.0.6   | Linux            |
-| ELK-VM   | Server   | 10.1.0.5   | Linux
+| ELK-VM   | Server   | 10.1.0.4   | Linux
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
@@ -60,11 +60,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses                 |
 |----------|---------------------|----------------------                |
-| Jump Box | Yes                 | 68.5.26.44 (Port 80)                 |
+| Jump Box | No                  | 10.0.1.4                             |
 | Web1     | Yes                 | 20.124.220.50                        |
 | Web2     | Yes                 | 20.124.220.50                        |
 | Web3     | Yes                 | 20.124.220.50                        |
-| ELK-VM   | Yes                 | 68.5.26.44 (Port 5601)               |
+| ELK-VM   | No                  | 10.1.0.4                             |
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
