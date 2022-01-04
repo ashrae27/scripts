@@ -7,14 +7,10 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Playbook1: Pentest yml
 ![Playbook1 pentest yml](https://user-images.githubusercontent.com/88813019/147843551-9020ef9f-0de3-49f4-9680-34187878a8c7.JPG)
-[README.md](https://github.com/ashrae27/scripts/files/7804844/README.md)
 
 Playbook:ELK yml
 ![elk_install yml](https://user-images.githubusercontent.com/88813019/148004622-c96edc79-2cfd-42b8-a9ee-635eca263540.JPG)
 ![elk_install yml 2](https://user-images.githubusercontent.com/88813019/148004627-b9e47bff-fb47-4d1f-90d6-c827abea6ac1.JPG)
-
-
-
 
 This document contains the following details:
 - Description of the Topologu
