@@ -110,5 +110,8 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 The commands to run the Ansible for the Elk-VM are:
--ssh azureuser@20.127.63.165 -i ~/.ssh/elk
--sudo docker container list -a
+ -ssh azureuser@20.127.63.165 -i ~/.ssh/elk
+- sudo docker container list -a
+- sudo docker container start eloquent_booth
+- sudo docker container attach eloquent_booth
+- cd /etc/ansible/
