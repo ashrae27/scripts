@@ -79,6 +79,7 @@ The playbook implements the following tasks:
 - Access to the Elk Vm
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+![Elk docker ps](https://user-images.githubusercontent.com/88813019/148014371-0f4fc41f-fc4d-48c8-be57-4e2d1aae9235.JPG)
 
 
 ### Target Machines & Beats
