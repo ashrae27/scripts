@@ -7,6 +7,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 Playbook1: Pentest yml
 ![Playbook1 pentest yml](https://user-images.githubusercontent.com/88813019/147843551-9020ef9f-0de3-49f4-9680-34187878a8c7.JPG)
+[README.md](https://github.com/ashrae27/scripts/files/7804844/README.md)
 
 
 
