@@ -31,14 +31,13 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 - _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
-- Load balancers protects the VM from DDoS attacks
-- The advantage of a jump box gives access to the user and can be secured and monitored.
+- Load balancers protect the VM from DDoS attacks
+- The advantage of a jump box can access to the user and can be secured and monitored.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file system and system metrics.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+
 - Firebeat watches for the log files, locations, and information.
-- Metricbeat record metrics and statistics that it collects and ships them to the output.
+- Metricbeat records metrics and statistics that it collects and ships them to the output.
 
 The configuration details of each machine may be found below.
 
