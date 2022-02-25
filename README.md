@@ -72,7 +72,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible?
-- Main advantage configuration with Ansible helps with the representation of Infrastructure as code (IAC)
+- The main advantage of configuration with Ansible is that it helps with the representation of Infrastructure as Code (IAC).
 
 The playbook implements the following tasks:
 - Create a new vNet in Azure with the same resource group
@@ -97,8 +97,10 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 
--Filebeat forwarding and monitoring log data or files.
--Metricnbeat collects metrics from the operating system and services running on the server
+-Filebeat forwards and monitors log data or files.
+-Metricbeat collects metrics from the operating system and services running on the server.
+
+Metricbeat collects metrics from the operating system and services running on the server.
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
